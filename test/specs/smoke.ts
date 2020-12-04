@@ -5,6 +5,7 @@ describe('Webcheck', () => {
         if (!logo.isExisting()) {
             throw new Error('You have some problem ')
         }
+        console.log('Some thing')
 
 
     });
